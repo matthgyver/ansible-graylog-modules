@@ -59,6 +59,16 @@ The following modules are available with the corresponding actions:
   * update
   * delete
   * test
+* graylog_inputs
+  * list
+  * delete
+* graylog_input_rsyslog
+  * create
+  * update
+* graylog_input_gelf
+  * create
+  * update
+
 
 ### Examples
 
@@ -405,7 +415,7 @@ The following modules are available with the corresponding actions:
       bind_address: "0.0.0.0"
 
   - name: Update existing RSyslog input
-    graylog_input_syslog:
+    graylog_input_rsyslog:
       endpoint: "{{ graylog_endpoint }}"
       graylog_user: "{{ graylog_user }}"
       graylog_password: "{{ graylog_password }}"
