@@ -59,7 +59,7 @@ The following modules are available with the corresponding actions:
   * update
   * delete
   * test
-* graylog_inputs
+* graylog_input
   * list
   * delete
 * graylog_input_rsyslog
@@ -363,7 +363,7 @@ The following modules are available with the corresponding actions:
 #### Input managment
 ```
   - name: Display all inputs
-    graylog_inputs:
+    graylog_input:
       endpoint: "{{ graylog_endpoint }}"
       graylog_user: "{{ graylog_user }}"
       graylog_password: "{{ graylog_password }}"
