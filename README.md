@@ -372,7 +372,7 @@ The following modules are available with the corresponding actions:
       action: "list"
 
   - name: Remove input with ID 1df0f1234abcd0000d0adf20
-    graylog_inputs:
+    graylog_input:
       endpoint: "{{ graylog_endpoint }}"
       graylog_user: "{{ graylog_user }}"
       graylog_password: "{{ graylog_password }}"
